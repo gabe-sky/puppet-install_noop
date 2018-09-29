@@ -1,0 +1,12 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "Install a Puppet Enterprise agent on Linux with noop set to true.",
+  "input_method": "environment",
+  "parameters": {
+    "master": {
+      "description": "The fully-qualified domain name of the master.",
+      "type": "String[1]"
+    }
+  }
+}

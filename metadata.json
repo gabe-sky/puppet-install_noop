@@ -1,6 +1,6 @@
 {
   "name": "gabe-install_noop",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Gabe Schuyler",
   "license": "Apache-2.0",
   "summary": "Tasks to install a Puppet Enterprise agent in 'noop' mode on Linux or Windows.",
@@ -12,7 +12,7 @@
   "requirements": [
     {
       "name": "pe",
-      "version_requirement": ">= 3.8 < 6.0.0"
+      "version_requirement": ">= 3.8"
     }
   ],
   "operatingsystem_support": [
